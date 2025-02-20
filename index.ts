@@ -80,33 +80,33 @@ let value;
 
 /////////////////////////////////////////interface
 
-interface Person{
-    name:string,
-    age:number,
-    greet():void
-}
+// interface Person{
+//     name:string,
+//     age:number,
+//     greet():void
+// }
 
-let person1:Person={
-    name:"aditya",
-    age:22,
-    greet() {
-        console.log("this is person 1")
-    }
-}
+// let person1:Person={
+//     name:"aditya",
+//     age:22,
+//     greet() {
+//         console.log("this is person 1")
+//     }
+// }
 
-let person2:Person={
-    name:"ganesh",
-    age:32,
-    greet() {
-        console.log("this is ganesh")
-    }
-}
+// let person2:Person={
+//     name:"ganesh",
+//     age:32,
+//     greet() {
+//         console.log("this is ganesh")
+//     }
+// }
 
-console.log(person1.name);
-console.log(person1.age);
-person1.greet()
+// console.log(person1.name);
+// console.log(person1.age);
+// person1.greet()
 
 
-console.log(person2);
+// console.log(person2);
 
 
