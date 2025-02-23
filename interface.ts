@@ -133,7 +133,7 @@
 
 
 
-//🟢🟢🟢make function make all data in string using interfaces
+//🟢🟢🟢make function make all data in string using interfaces.
 // interface UserData {
 //     name:string;
 //     age:number;
@@ -207,4 +207,93 @@
 
 //🟢🟢
 
+//Interface for a Function Type: Create an interface for a function MultiplyFn that takes two numbers and returns a number.
 
+// interface Nums{
+//     num1:number;
+//     num2:number;
+// }
+
+// function Multiply(numb:Nums):number{
+//     return numb.num1*numb.num2
+// }
+
+// let n1:Nums=({num1:123,num2:2})
+
+// console.log(Multiply(n1));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// interface MultiplyFn{
+//     (num1:number,num2:number):number
+// }
+
+// const multiply:MultiplyFn=(num1,num2)=>{
+//     return num1*num2
+// }
+    
+// console.log(multiply(1,2));
+
+
+//🟢🟢make function make all data in string using interfaces.
+
+// interface UserData {
+//         name:string;
+//         age?:number;
+//         email:string
+//     }
+
+// function makestr(str:UserData):string{
+//     return `the user name is ${str.name} and his age is ${str.age}`
+// }
+
+// let u1:UserData={
+//     name:"nayan",
+//     // age:34,
+//     email:"aditya@gmail.com"
+// }
+
+// console.log(makestr(u1));
+
+
+
+///////////////////////////////////////////////////////////////////////
+interface Car{
+    name:string;
+    brand?:string;
+    specs:{
+        engine?:string;
+        horcepower?:number;
+    }
+}
+
+ function strmake(car:Car):string{
+    return `car name is ${car.name} and engine is ${car.specs.engine}`
+ }
+
+ let c1:Car={
+    name:"naxon",
+    specs:{
+        engine:"electric",
+        horcepower:2000
+
+    }
+ }
+
+ console.log(strmake(c1));
+ 

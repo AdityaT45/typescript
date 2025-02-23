@@ -199,35 +199,35 @@
 
 
 
-type Car={
-    type:'car'
-    model:string;
-    year:number
-}
+// type Car={
+//     type:'car'
+//     model:string;
+//     year:number
+// }
 
-type Bike={
-    type:'bike'
-    brand:string;
-    cc:number
+// type Bike={
+//     type:'bike'
+//     brand:string;
+//     cc:number
 
-}
+// }
 
-type VehicleData= Car | Bike
+// type VehicleData= Car | Bike
 
-function vehicleDetails(details:VehicleData):void{
-    if(details.type==="car"){
-        console.log(`model is ${details.model} and relese year is ${details.year}`);
-    }
-    else  if(details.type==="bike"){
-        console.log(`model is ${details.brand} and cc is ${details.cc}`);
-    }
-}
+// function vehicleDetails(details:VehicleData):void{
+//     if(details.type==="car"){
+//         console.log(`model is ${details.model} and relese year is ${details.year}`);
+//     }
+//     else  if(details.type==="bike"){
+//         console.log(`model is ${details.brand} and cc is ${details.cc}`);
+//     }
+// }
 
-let info:Car={
-    
-    type:'car',
-    model:"sads",
-    year:234
-}
+// let info:Car={
 
-vehicleDetails(info)
+//     type:'car',
+//     model:"sads",
+//     year:234
+// }
+
+// vehicleDetails(info)
