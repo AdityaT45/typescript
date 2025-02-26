@@ -10,7 +10,7 @@
 let num:number=20;
 // console.log(num);
 
-let str:string='asd'
+// let str:string='asd'
 // console.log(str);
 
 
